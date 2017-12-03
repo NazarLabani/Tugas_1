@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingRight="16dp"
+    android:paddingLeft="16dp"
+    tools:context="sttg.prak.tugas_1.main_menu">
+
+    <TextView
+        android:id="@+id/menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80px"
+        android:text="Menu Utama"
+        android:textAlignment="center"
+        android:textSize="12pt"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/list_pesan"
+        android:layout_width="500px"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30px"
+        android:layout_marginTop="200px"
+        android:text="List Pemesanan"
+        android:textSize="8pt"
+
+        />
+
+    <Button
+        android:id="@+id/pesan"
+        android:layout_width="500px"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/list_pesan"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30px"
+        android:text="Pesan Makanan"
+        android:textSize="8pt" />
+
+    <Button
+        android:id="@+id/about"
+        android:layout_width="500px"
+        android:layout_height="wrap_content"
+        android:text="about"
+        android:textSize="8pt"
+        android:layout_below="@+id/pesan"
+        android:layout_alignLeft="@+id/pesan"
+        android:layout_alignStart="@+id/pesan" />
+
+    <Button
+        android:id="@+id/exit"
+        android:layout_width="500px"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/about"
+        android:layout_centerHorizontal="true"
+        android:text="exit"
+        android:textSize="8pt" />
+</RelativeLayout>
